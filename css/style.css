@@ -1,0 +1,220 @@
+body{
+/* background:url("images/boo1.png") no-repeat; */
+background-size:cover; 
+}
+
+@media screen and (max-width:1200px) {
+
+body{
+overflow:scroll;
+}
+
+ #wheelcanvas {
+            width: 100%;
+            height: auto;
+        }
+		
+.main-circle{
+height:auto;
+width:100%;	
+}
+
+.mar-top{
+margin-top:0px;
+}
+.black-arrows{
+width:50px; 
+z-index:100; 
+position:relative; 
+top:210px; 
+left:-140px;
+}
+
+}
+
+
+@media screen and (max-width:1100px) {
+.black-arrows{ 
+left:-60px;
+}
+}
+
+
+@media screen and (max-width:350px) {
+.black-arrows {
+width: 40px;
+z-index: 100;
+position: relative;
+top: -150px;
+left: 250px;
+}
+}
+
+@media screen and (min-width:360px) and (max-width:400px) {
+.black-arrows {
+width: 40px;
+z-index: 100;
+position: relative;
+top: -170px;
+left: 295px;
+}
+}
+
+
+@media screen and (min-width:410px) and (max-width:550px) {
+.black-arrows {
+width: 40px;
+z-index: 100;
+position: relative;
+top: -225px;
+left: 400px;
+}
+}
+
+@media screen and (max-width:500px) {
+.instruct-arrow {
+  z-index: 9999999;
+  position: fixed;
+  top: 206px;
+  left: 150px;
+  width: 143px;
+  height: 48%;
+  /* text-align: center; */
+  /* margin: 0 auto; */
+}
+.help-font {
+    font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 5px;
+  line-height: 2;
+  position: absolute;
+  top: 247px;
+  left: 0px;
+  z-index: 999999999999;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(219, 38, 51);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-box {
+  width: 100%;
+  margin-right: 0em;
+  border: 2px solid white;
+}
+.contact-heading {
+  font-size: 1.5625em;
+  }
+ .contact-intro {
+  font-size: 1.2em;
+  width: 100%;
+} 
+  .contact-page-details {
+  font-size: 2.0em;
+  }
+  
+  .detail {
+  font-size: 1.3em;
+  }
+  .contact-method {
+  font-size: 17px;
+  }
+ h1 {
+text-align:center;
+}
+.form-style {
+  width: 100%;
+  }
+
+}
+
+@media screen and (max-width:1000px) and (min-width:501px) {
+.instruct-arrow {
+  z-index: 9999999;
+  position: fixed;
+  top: 150px;
+  left: 250px;
+  height: 63%;
+}
+.help-font {
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 2px;
+  line-height: 2;
+  position: fixed;
+  top: 157px;
+  left: 104px;
+  z-index: 99999999;
+  font-size: 38px;
+  font-weight: bold;
+  color: rgb(219, 38, 51);
+}
+}
+
+@media screen and (max-width:1200px) and (min-width:1001px) {
+.help-font {
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 6px;
+  line-height: 2;
+  position: fixed;
+  top: 157px;
+  left: 204px;
+  z-index: 99999999;
+  font-size: 48px;
+  font-weight: bold;
+  color: rgb(219, 38, 51);
+}
+.instruct-arrow {
+  z-index: 9999999;
+  position: fixed;
+  top: 137px;
+  left: 450px;
+  height: 80%;
+}
+}
+
+@media screen and (max-width:500px) {
+.whyus-first {
+  padding: 64px;
+  }
+.service-first{
+ padding: 64px;
+}  
+
+.padding-60s {
+  padding: 20px;
+}
+  
+.padding-left-right {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.first-about-bg h1 {
+  padding: 55px;
+  padding-bottom: 10px;
+  font-size: 26px;
+  }
+  
+.first-about-bg h3 {
+  font-size: 19px;
+}  
+
+.box {
+  width: 90%;  
+}
+
+}
+
+@media screen and (min-width:500px) and (max-width:800px) {
+.first-about-bg h1 {
+  padding: 121px;
+  padding-bottom: 16px;
+  font-size: 33px;
+  }
+  
+  .box {
+
+  padding: 8px 40px;
+  width: 40%;
+}
+  }
